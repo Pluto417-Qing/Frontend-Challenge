@@ -1,0 +1,78 @@
+/* CSS Document */
+body {
+	background-image: url("../assets/images/background-desktop.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: small;
+}
+
+#main {
+	text-align: center;
+	color: white;
+	width: 550px;
+	margin: auto;
+	background-color: transparent;
+}
+
+#main h1 {
+	font-size: 2.7em;
+}
+
+#main p {
+	font-size: 1.3em;
+}
+
+#logo {
+	margin: 40px auto 50px;
+}
+
+form {
+	font-size: 1.2em; 
+	width: 400px;
+	margin: auto;
+}
+
+form #avatarField {
+	margin: 10px auto 1px;
+	font-size: 0.5em;
+	width: 400px;
+	height: 130px;
+	border: dashed 2px #D4CECE;
+	border-radius: 5px;
+}
+
+form #avatarButton {
+	width: 35px;
+	height: 30px;
+	background-image: url(../assets/images/icon-upload.svg);
+	background-color: transparent;
+	margin: 20px auto;
+}
+
+form .label {
+	display: block;
+	text-align: left;
+}
+
+form #avatarFooter {
+	display: flex;
+	font-size: 0.3em;
+	margin: 1px auto 10px;
+}
+
+form .inputBox {
+	background-color: transparent;
+	width: 400px;
+	height: 40px;
+	margin: 10px 0px;
+	border: thin solid #DAD8D8;
+	border-radius: 5px;
+}
+
+form #button {
+	margin-top: 10px;
+	background-color: coral;
+	font-weight: bold;
+}

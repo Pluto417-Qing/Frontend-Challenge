@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Coding Conf Form</title>
+	<link rel="stylesheet" type="text/css" href="../style/formStyle.css">
+</head>
+<body>
+<div id="main">
+		<header id="logo">
+			<img src="../assets/images/logo-full.svg">
+		</header>
+
+		<h1 id="title">Your  Journey  to  Coding  Conf  2025  Starts    Here!</h1>
+		<p>Secure your spot at next year's biggest coding conference.</p>
+
+		<form method="POST" action="../script/validation.js" id="form">
+			<div>
+				<label for="avatar" class="label">Upload Avatar</label>
+				<div id="avatarField">
+					<input type="button" id="avatarButton">
+					<p>Drag and drop or click to upload</p>
+				</div>
+				<footer id="avatarFooter">
+						<img src="../assets/images/icon-info.svg">
+						<p>Upload your photo (JPG or PNG, max size: 5MB)</p>
+				</footer>
+			</div>
+			<div>
+				<label class="label" for="fullName">Full Name</label>
+				<input type="text" name="fullName" class="inputBox">
+			</div>
+			<div>
+				<label class="label" for="email">Emails Address</label>
+				<input type="email" name="email" class="inputBox" placeholder="example@email.com">
+			</div>
+			<div>
+				<label class="label" for="github">GitHub Username</label>
+				<input type="text" name="githubName" class="inputBox" placeholder="@yourusername">
+			</div>
+			<div>
+				<input type="button" value="Generate My Ticket" id="button" class="inputBox">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
