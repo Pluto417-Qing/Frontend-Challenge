@@ -10,7 +10,7 @@ body {
 #main {
 	text-align: center;
 	color: white;
-	width: 550px;
+	width: 700px;
 	height: auto;
 	margin: auto;
 	background-color: transparent;
@@ -30,14 +30,14 @@ body {
 
 form {
 	font-size: 1.2em; 
-	width: 400px;
+	width: 700px;
 	margin: auto;
 }
 
 form #avatarField {
 	margin: 10px auto 1px;
 	font-size: 0.5em;
-	width: 400px;
+	width: inherit;
 	height: 130px;
 	border: dashed 2px #D4CECE;
 	border-radius: 5px;
@@ -64,7 +64,7 @@ form #avatarFooter {
 
 form .inputBox {
 	background-color: transparent;
-	width: 400px;
+	width: 700px;
 	height: 40px;
 	margin: 10px 0px;
 	border: thin solid #DAD8D8;
