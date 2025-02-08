@@ -4,7 +4,6 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	font-size: small;
 }
 
@@ -12,6 +11,7 @@ body {
 	text-align: center;
 	color: white;
 	width: 550px;
+	height: auto;
 	margin: auto;
 	background-color: transparent;
 }
@@ -75,4 +75,16 @@ form #button {
 	margin-top: 10px;
 	background-color: coral;
 	font-weight: bold;
+}
+
+#decButtomLeft {
+	position: fixed;
+	top: 400px;
+	left: 0px;
+}
+
+#decTopRight {
+	position: fixed;
+	right: 0px;
+	top: 100px;
 }
