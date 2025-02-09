@@ -1,0 +1,68 @@
+/* CSS Document */
+
+.email {
+	color: orange;
+}
+
+#title .fullName {
+	color: coral;
+}
+
+#main #ticket {
+	background-image: url("../assets/images/pattern-ticket.svg");
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 280px;
+	margin: 100px auto;
+	position: relative;
+}
+
+#main #ticket #upperIcon img{
+	position: absolute;
+	top: -70px;
+	left: 20px;
+}
+
+#ticket #upperIcon #date {
+	position: absolute;
+	top: 90px;
+	left: 80px;
+	z-index: 1;
+}
+
+#lowerIcon #avatarIcon {
+	width: 100px;
+	height: 100px;
+	background-image: url(../assets/images/image-avatar.jpg);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 150px;
+	left: 20px;
+	border-radius: 10px;
+}
+
+#lowerIcon .fullName {
+	position: absolute;
+	font-size: 1.9em;
+	top: 160px;
+	left: 150px;
+	z-index: 1;
+}
+
+#lowerIcon #avatarFooter {
+	position: absolute;
+	display: flex;
+	top: 220px;
+	left: 150px;
+	z-index: 1;
+}
+
+#ticket footer {
+	position: absolute;
+	font-size: 1.7em;
+	color: gray;
+	transform: rotate(90deg);
+	top: 120px;
+	left: 510px;
+}

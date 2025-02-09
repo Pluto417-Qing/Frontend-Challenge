@@ -64,11 +64,13 @@ form #avatarFooter {
 
 form .inputBox {
 	background-color: transparent;
+	color: white;
 	width: 600px;
 	height: 40px;
 	margin: 10px 0px;
 	border: thin solid #DAD8D8;
 	border-radius: 5px;
+	pointer-events: auto; 
 }
 
 form #button {
