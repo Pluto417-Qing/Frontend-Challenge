@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Coding Conf Form</title>
 	<link rel="stylesheet" type="text/css" href="../style/formStyle.css">
+	<script src="../script/validation.js"></script>
 </head>
 <body>
 <div id="main">
@@ -28,18 +29,18 @@
 			</div>
 			<div>
 				<label class="label" for="fullName">Full Name</label>
-				<input type="text" name="fullName" class="inputBox">
+				<input type="text" name="fullName" class="inputBox" id="fullName" required>
 			</div>
 			<div>
 				<label class="label" for="email">Emails Address</label>
-				<input type="email" name="email" class="inputBox" placeholder="example@email.com">
+				<input type="email" name="email" class="inputBox" placeholder="example@email.com" id="email" required>
 			</div>
 			<div>
 				<label class="label" for="github">GitHub Username</label>
-				<input type="text" name="githubName" class="inputBox" placeholder="@yourusername">
+				<input type="text" name="githubName" class="inputBox" placeholder="@yourusername" id="githubName" required>
 			</div>
 			<div>
-				<input type="button" value="Generate My Ticket" id="button" class="inputBox">
+				<input type="button" value="Generate My Ticket" id="button" class="inputBox" onClick="validate()">
 			</div>
 		</form>
 	</div>
